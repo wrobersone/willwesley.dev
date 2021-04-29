@@ -44,23 +44,9 @@ export const Project = ({
           alignItems="center"
           justifyContent="space-evenly"
         >
-          {video ? (
-            <Button
-              colorScheme="gray"
-              alt="Opens in a new window"
-              leftIcon={<Youtube />}
-              as={Link}
-              target="_blank"
-              rel="noreferrer"
-              href={video}
-            >
-              Video
-            </Button>
-          ) : null}
-
           {website ? (
             <Button
-              colorScheme="gray"
+              colorScheme="yellow"
               alt="Opens in a new window"
               leftIcon={<Airplayvideo />}
               as={Link}
@@ -72,9 +58,23 @@ export const Project = ({
             </Button>
           ) : null}
 
+          {video ? (
+            <Button
+              colorScheme="red"
+              alt="Opens in a new window"
+              leftIcon={<Youtube />}
+              as={Link}
+              target="_blank"
+              rel="noreferrer"
+              href={video}
+            >
+              Video
+            </Button>
+          ) : null}
+
           {frontend ? (
             <Button
-              colorScheme="gray"
+              colorScheme="green"
               alt="Opens in a new window"
               leftIcon={<Github />}
               as={Link}
@@ -82,7 +82,7 @@ export const Project = ({
               rel="noreferrer"
               href={frontend}
             >
-              Front
+              Repo
             </Button>
           ) : null}
 
@@ -102,7 +102,7 @@ export const Project = ({
 
           {repo ? (
             <Button
-              colorScheme="gray"
+              colorScheme="blue"
               alt="Opens in a new window"
               leftIcon={<Github />}
               as={Link}
@@ -110,7 +110,7 @@ export const Project = ({
               rel="noreferrer"
               href={repo}
             >
-              Repo
+              Front
             </Button>
           ) : null}
         </Box>
@@ -129,7 +129,7 @@ export const Project = ({
                 px="2"
                 mr="2px"
                 fontSize="0.6em"
-                colorScheme="green"
+                colorScheme="yellow"
               >
                 {each}
               </Badge>

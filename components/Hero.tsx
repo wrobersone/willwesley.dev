@@ -26,7 +26,7 @@ const Hero = ({ title, subtitle }: Props) => (
 
 Hero.defaultProps = {
   title: 'william wesley',
-  subtitle: 'software engineer'
+  subtitle: 'front end engineer'
 };
 
 export default Hero;

@@ -18,9 +18,9 @@ type Props = {
 export const Container = (props: Props) => {
   const { colorMode } = useColorMode();
 
-  const bgColor = { light: 'gray.50', dark: 'gray.900' };
+  const bgColor = { light: 'black', dark: 'blue.900' };
 
-  const color = { light: 'black', dark: 'white' };
+  const color = { light: 'white', dark: 'white' };
 
   const router = useRouter();
   const meta = {

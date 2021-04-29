@@ -45,22 +45,22 @@ export const Header = () => {
       >
         <Stack direction="row" p={4} spacing={1}>
           <NextLink href="/" passHref>
-            <Button variant="outline" colorScheme="blue">
+            <Button variant="outline" colorScheme="yellow">
               Home
             </Button>
           </NextLink>
-          <NextLink href="/blog" passHref>
-            <Button variant="outline" colorScheme="blue">
+          {/* <NextLink href="/blog" passHref>
+            <Button variant="outline" colorScheme="yellow">
               Blog
             </Button>
-          </NextLink>
+          </NextLink> */}
           <Menu>
             <MenuButton
-              colorScheme="blue"
+              colorScheme="yellow"
               as={Button}
               rightIcon={<ChevronDownIcon />}
             >
-              More
+              About
             </MenuButton>
             <MenuList color={menuToggle}>
               <MenuGroup title="Social">
@@ -102,7 +102,7 @@ export const Header = () => {
                   alt="Opens Resume in a new window"
                   target="_blank"
                   rel="noreferrer"
-                  href={'https://gabrielhicks.dev/HicksResume.pdf'}
+                  href={'https://docs.google.com/document/d/1kk-8x1KfO6cYh-sTOR41Ht0Ix1sGO2sTQTQKULVLYYw/edit?usp=sharing'}
                   icon={<ExternalLinkIcon />}
                 >
                   Resume
