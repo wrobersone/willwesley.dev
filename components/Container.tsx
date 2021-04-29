@@ -24,10 +24,10 @@ export const Container = (props: Props) => {
 
   const router = useRouter();
   const meta = {
-    title: 'William Wesley - Software Engineer, Full Stack Developer',
+    title: 'William Wesley - Front End Engineer',
     description:
       'William Wesley is a software engineer who specializes in building applications and websites using the latest technologies.',
-    image: 'https://gabrielhicks.dev/og.png', //1. change this soon
+    image: '/public/note.png', //1. change this soon
     type: 'website'
   };
 
@@ -42,7 +42,7 @@ export const Container = (props: Props) => {
           content={`https://gabrielhicks.dev${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Gabriel Hicks" />
+        <meta property="og:site_name" content="William Wesley" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
