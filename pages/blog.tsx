@@ -39,11 +39,11 @@ export default function Blog({ posts }: BlogProps) {
 
   return (
     <Container
-      title="Blog - Gabriel Hicks"
+      title="Blog - William Wesley"
       description="A collection of thoughts surrounding software development, new technologies, and life experience."
       height="100%"
     >
-      <Hero title="blog" subtitle="thinking in public" />
+      <Hero title="blog" subtitle="food | fun | travel" />
       <div>
         {!blogPosts.length && 'Blogs could not be found.'}
         <Main spacing={4} columns={[1, 2]}>

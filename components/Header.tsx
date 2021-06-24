@@ -49,11 +49,6 @@ export const Header = () => {
               Home
             </Button>
           </NextLink>
-          {/* <NextLink href="/blog" passHref>
-            <Button variant="outline" colorScheme="yellow">
-              Blog
-            </Button>
-          </NextLink> */}
           <Menu>
             <MenuButton
               colorScheme="yellow"
@@ -120,6 +115,11 @@ export const Header = () => {
               </MenuGroup>
             </MenuList>
           </Menu>
+          <NextLink href="/blog" passHref>
+            <Button variant="outline" colorScheme="yellow">
+              Blog
+            </Button>
+          </NextLink>
           <IconButton
             position="fixed"
             top="1rem"

@@ -41,18 +41,19 @@ export const ProjectContainer = () => {
       />
       
       <Project
-        title="Retail E-Commerce"
+        title="Find Your Ingredients"
         image="/static/projects/placeholder.png"
-        website="https://ecommerce-redstore.netlify.app/"
-        video="https://youtu.be/DKELqqr_po4"
-        frontend="https://github.com/wrobersone/E-commerce"
+        website="https://findingredients.netlify.app/"
+        video={false}
+        frontend="https://github.com/wrobersone/makeameal"
         backend={false}
         repo={false}
-        description="Retail E-commerce webpage with basic HTML, CSS and JS"
+        description="Consumes a 3rd Party REST API, fetching food ingredients using Vanilla JS"
         tech={[
           'HTML',
           'CSS',
-          'JavaScript'
+          'JavaScript',
+          'REST'
         ]}
       />
       
@@ -129,7 +130,7 @@ export const ProjectContainer = () => {
         title="Zay Marie Music"
         image="/static/projects/placeholder.png"
         repo={false}
-        description="Music artist EPK website with images and videos using HTML, CSS and Bootstrap."
+        description="Designed a landing page for an independent music artist."
         tech={[
           'HTML',
           'CSS',
@@ -142,6 +143,59 @@ export const ProjectContainer = () => {
         backend={false}
         video={false}
         website="https://zay-marie-music.herokuapp.com"
+      />
+
+      <Project
+        title="Zodiac"
+        image="/static/projects/placeholder.png"
+        website="https://kind-morse-3cb6f4.netlify.app/"
+        video="https://www.youtube.com/watch?v=EbFTAjzSk0E"
+        frontend="https://github.com/wrobersone/zodiac"
+        backend={false}
+        repo={false}
+        description="Enter your zodiac sign and discover your horoscope"
+        tech={[
+          'AJAX',
+          'HTML',
+          'CSS',
+          'JavaScript'
+        ]}
+      />
+
+      <Project
+        title="ProShop"
+        image="/static/projects/placeholder.png"
+        repo={false}
+        description="E-commerce shop with React frontend, Django backend and Postgres database."
+        tech={[
+          'React',
+          'Redux',
+          'Django',
+          'DRF',
+          'Postgres',
+          'Python'
+
+        ]}
+        frontend="https://github.com/wrobersone/wr_proshop"
+        backend={false}
+        video={false}
+        website={false}
+      />
+
+      <Project
+        title="CRM"
+        image="/static/projects/placeholder.png"
+        repo={false}
+        description="A content relationship management database with Django"
+        tech={[
+          'Django',
+          'Python',
+
+        ]}
+        frontend="https://github.com/wrobersone/crm"
+        backend={false}
+        video={false}
+        website={false}
       />
 
     </>

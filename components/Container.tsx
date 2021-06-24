@@ -18,9 +18,9 @@ type Props = {
 export const Container = (props: Props) => {
   const { colorMode } = useColorMode();
 
-  const bgColor = { light: 'black', dark: 'blue.900' };
+  const bgColor = { light: 'yellow.50', dark: 'gray.900' };
 
-  const color = { light: 'white', dark: 'white' };
+  const color = { light: 'black', dark: 'white' };
 
   const router = useRouter();
   const meta = {
@@ -39,7 +39,7 @@ export const Container = (props: Props) => {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://gabrielhicks.dev${router.asPath}`}
+          content={`https://williamwesley.vercel.app${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="William Wesley" />
@@ -47,7 +47,7 @@ export const Container = (props: Props) => {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@gabrielhicksdev" />
+        <meta name="twitter:site" content="@wilwesley" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
