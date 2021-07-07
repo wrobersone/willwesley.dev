@@ -5,27 +5,10 @@ import { Project } from './Project';
 
 export const ProjectContainer = () => {
   return (
-    <>
-      <Project
-        title="Budgety"
-        image="/static/projects/placeholder.png"
-        website="https://budgety-competent.netlify.app/"
-        video="https://youtu.be/8JT_Mg13-nA"
-        frontend="https://github.com/wrobersone/budgety"
-        backend={false}
-        repo={false}
-        description="An expense report tracker using Angular 1/2, HTML, CSS and JavaScript"
-        tech={[
-          'JavaScript',
-          'HTML',
-          'CSS',
-          'Angular'
-        ]}
-      />
-      
+    <>      
       <Project
         title="First Personal Portfolio"
-        image="/static/projects/placeholder.png"
+        image="/static/projects/p1.jpg"
         repo="https://github.com/wrobersone/wrobersone.github.io"
         description="My first personal project, creating  a scalable website with HTML, CSS, JS and Bootstrap."
         tech={[
@@ -42,7 +25,7 @@ export const ProjectContainer = () => {
       
       <Project
         title="Find Your Ingredients"
-        image="/static/projects/placeholder.png"
+        image="/static/projects/p2.jpg"
         website="https://findingredients.netlify.app/"
         video={false}
         frontend="https://github.com/wrobersone/makeameal"
@@ -59,7 +42,7 @@ export const ProjectContainer = () => {
       
       <Project
         title="Westflix"
-        image="/static/projects/placeholder.png"
+        image="/static/projects/p3.jpg"
         repo={false}
         description="A Netflix replica website using JavaScript, MySQL and PHP."
         tech={[
@@ -76,7 +59,7 @@ export const ProjectContainer = () => {
 
       <Project
         title="Real Estate"
-        image="/static/projects/placeholder.png"
+        image="/static/projects/p4.jpg"
         website={false}
         video="https://www.youtube.com/watch?v=dN7FuqO_I54"
         frontend="https://github.com/wrobersone/Real-Estate"
@@ -92,7 +75,7 @@ export const ProjectContainer = () => {
 
       <Project
         title="API Gallery"
-        image="/static/projects/placeholder.png"
+        image="/static/projects/p5.jpg"
         repo={false}
         description="React.js with Tailwinds Image Gallery and Pixabay API"
         tech={[
@@ -110,7 +93,7 @@ export const ProjectContainer = () => {
 
       <Project
         title="Igedla Health"
-        image="/static/projects/placeholder.png"
+        image="/static/projects/p6.jpg"
         website="https://www.igedla.com/"
         video={false}
         frontend="https://github.com/wrobersone/igedla-site-gatsby"
@@ -128,7 +111,7 @@ export const ProjectContainer = () => {
 
       <Project
         title="Zay Marie Music"
-        image="/static/projects/placeholder.png"
+        image="/static/projects/p7.jpg"
         repo={false}
         description="Designed a landing page for an independent music artist."
         tech={[
@@ -136,7 +119,7 @@ export const ProjectContainer = () => {
           'CSS',
           'Bootstrap',
           'JavaScript',
-          'RubyonRails'
+          'Ruby'
           
         ]}
         frontend={false}
@@ -147,7 +130,7 @@ export const ProjectContainer = () => {
 
       <Project
         title="Zodiac"
-        image="/static/projects/placeholder.png"
+        image="/static/projects/p8.jpg"
         website="https://kind-morse-3cb6f4.netlify.app/"
         video="https://www.youtube.com/watch?v=EbFTAjzSk0E"
         frontend="https://github.com/wrobersone/zodiac"
