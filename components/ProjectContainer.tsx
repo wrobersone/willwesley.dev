@@ -80,7 +80,7 @@ export const ProjectContainer = () => {
 
       <Project
         title="Limelight Management Group"
-        image="/static/projects/p9.jpg"
+        image="/static/projects/p9.png"
         repo={false}
         description="Designed a music consultant's landing page."
         tech={['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'Ruby']}
@@ -116,7 +116,7 @@ export const ProjectContainer = () => {
 
       <Project
         title="Expense Tracker"
-        image="/static/projects/p10.jpg"
+        image="/static/projects/p10.png"
         repo={false}
         description="Expense Tracker: Keep track of income and expenses. Add and remove items and save to local storage"
         tech={['React', 'React Hooks', 'NPM', 'HTML']}
