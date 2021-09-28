@@ -5,24 +5,19 @@ import { Project } from './Project';
 
 export const ProjectContainer = () => {
   return (
-    <>      
+    <>
       <Project
         title="First Personal Portfolio"
         image="/static/projects/p1.jpg"
         repo="https://github.com/wrobersone/wrobersone.github.io"
         description="My first personal project, creating  a scalable website with HTML, CSS, JS and Bootstrap."
-        tech={[
-          'HTML',
-          'CSS',
-          'JavaScript',
-          'Bootstrap'
-        ]}
+        tech={['HTML', 'CSS', 'JavaScript', 'Bootstrap']}
         frontend={false}
         backend={false}
         video={false}
         website="https://confident-hypatia.netlify.app/"
       />
-      
+
       <Project
         title="Find Your Ingredients"
         image="/static/projects/p2.jpg"
@@ -32,25 +27,15 @@ export const ProjectContainer = () => {
         backend={false}
         repo={false}
         description="Consumes a 3rd Party REST API, fetching food ingredients using Vanilla JS"
-        tech={[
-          'HTML',
-          'CSS',
-          'JavaScript',
-          'REST'
-        ]}
+        tech={['HTML', 'CSS', 'JavaScript', 'REST']}
       />
-      
+
       <Project
-        title="Westflix"
+        title="Wesflix"
         image="/static/projects/p3.jpg"
         repo={false}
         description="A Netflix replica website using JavaScript, MySQL and PHP."
-        tech={[
-          'MySQL',
-          'PHP',
-          'JavaScript',
-          
-        ]}
+        tech={['MySQL', 'PHP', 'JavaScript']}
         frontend="https://github.com/wrobersone/Wesflix"
         backend={false}
         video="https://www.youtube.com/watch?v=-8KNw7fXZ3Y"
@@ -66,11 +51,7 @@ export const ProjectContainer = () => {
         backend={false}
         repo={false}
         description="Real Estate webpage with basic HTML, CSS and JS"
-        tech={[
-          'HTML',
-          'CSS',
-          'JavaScript'
-        ]}
+        tech={['HTML', 'CSS', 'JavaScript']}
       />
 
       <Project
@@ -78,13 +59,7 @@ export const ProjectContainer = () => {
         image="/static/projects/p5.jpg"
         repo={false}
         description="React.js with Tailwinds Image Gallery and Pixabay API"
-        tech={[
-          'React',
-          'Gatsby',
-          'Tailwinds',
-          'RestAPI'
-          
-        ]}
+        tech={['React', 'Gatsby', 'Tailwinds', 'RestAPI']}
         frontend="https://github.com/wrobersone/galleryapi-react"
         backend={false}
         video={false}
@@ -100,13 +75,19 @@ export const ProjectContainer = () => {
         backend={false}
         repo={false}
         description="React + Gatsby.js application for a health startup"
-        tech={[
-          'HTML',
-          'CSS',
-          'JavaScript',
-          'Gatsby',
-          'React'
-        ]}
+        tech={['HTML', 'CSS', 'JavaScript', 'Gatsby', 'React']}
+      />
+
+      <Project
+        title="Limelight Management Group"
+        image="/static/projects/p9.jpg"
+        repo={false}
+        description="Designed a music consultant's landing page."
+        tech={['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'Ruby']}
+        frontend={false}
+        backend={false}
+        video={false}
+        website="https://tllis.net/"
       />
 
       <Project
@@ -114,14 +95,7 @@ export const ProjectContainer = () => {
         image="/static/projects/p7.jpg"
         repo={false}
         description="Designed a landing page for an independent music artist."
-        tech={[
-          'HTML',
-          'CSS',
-          'Bootstrap',
-          'JavaScript',
-          'Ruby'
-          
-        ]}
+        tech={['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'Ruby']}
         frontend={false}
         backend={false}
         video={false}
@@ -137,12 +111,19 @@ export const ProjectContainer = () => {
         backend={false}
         repo={false}
         description="Enter your zodiac sign and discover your horoscope"
-        tech={[
-          'AJAX',
-          'HTML',
-          'CSS',
-          'JavaScript'
-        ]}
+        tech={['AJAX', 'HTML', 'CSS', 'JavaScript']}
+      />
+
+      <Project
+        title="Expense Tracker"
+        image="/static/projects/p10.jpg"
+        repo={false}
+        description="Expense Tracker: Keep track of income and expenses. Add and remove items and save to local storage"
+        tech={['React', 'React Hooks', 'NPM', 'HTML']}
+        frontend="https://github.com/wrobersone/expense-tracker"
+        backend={false}
+        video={false}
+        website="https://elegant-elion-2da7a5.netlify.app/"
       />
 
       <Project
@@ -150,15 +131,7 @@ export const ProjectContainer = () => {
         image="/static/projects/placeholder.png"
         repo={false}
         description="E-commerce shop with React frontend, Django backend and Postgres database."
-        tech={[
-          'React',
-          'Redux',
-          'Django',
-          'DRF',
-          'Postgres',
-          'Python'
-
-        ]}
+        tech={['React', 'Redux', 'Django', 'DRF', 'Postgres', 'Python']}
         frontend="https://github.com/wrobersone/wr_proshop"
         backend={false}
         video={false}
@@ -170,17 +143,12 @@ export const ProjectContainer = () => {
         image="/static/projects/placeholder.png"
         repo={false}
         description="A content relationship management database with Django"
-        tech={[
-          'Django',
-          'Python',
-
-        ]}
+        tech={['Django', 'Python']}
         frontend="https://github.com/wrobersone/crm"
         backend={false}
         video={false}
         website={false}
       />
-
     </>
   );
 };
