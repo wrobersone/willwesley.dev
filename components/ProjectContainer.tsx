@@ -31,15 +31,15 @@ export const ProjectContainer = () => {
       />
 
       <Project
-        title="Wesflix"
+        title="Travel Pro"
         image="/static/projects/p3.jpg"
         repo={false}
-        description="A Netflix replica website using JavaScript, MySQL and PHP."
-        tech={['MySQL', 'PHP', 'JavaScript']}
-        frontend="https://github.com/wrobersone/Wesflix"
+        description="A Travel blog with HTML, CSS and JavaScript."
+        tech={['HTML5', 'CSS3', 'JavaScript']}
+        frontend="https://github.com/wrobersone/travel"
         backend={false}
-        video="https://www.youtube.com/watch?v=-8KNw7fXZ3Y"
-        website={false}
+        video={false}
+        website="https://travel-pro.netlify.app/"
       />
 
       <Project
