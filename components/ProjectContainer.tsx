@@ -7,15 +7,15 @@ export const ProjectContainer = () => {
   return (
     <>
       <Project
-        title="First Personal Portfolio"
+        title="Modern Real Estate"
         image="/static/projects/p1.jpg"
-        repo="https://github.com/wrobersone/wrobersone.github.io"
-        description="My first personal project, creating  a scalable website with HTML, CSS, JS and Bootstrap."
-        tech={['HTML', 'CSS', 'JavaScript', 'Bootstrap']}
+        repo="https://github.com/wrobersone/modern_realestate"
+        description="Modern Real Estate application with rental home and property data from Rapid API."
+        tech={['NextJS', 'ReactJS', 'ChakraUI', 'RapidAPI']}
         frontend={false}
         backend={false}
         video={false}
-        website="https://confident-hypatia.netlify.app/"
+        website="https://modern-realestate.vercel.app/"
       />
 
       <Project
@@ -40,18 +40,6 @@ export const ProjectContainer = () => {
         backend={false}
         video="https://www.youtube.com/watch?v=-8KNw7fXZ3Y"
         website={false}
-      />
-
-      <Project
-        title="Real Estate"
-        image="/static/projects/p4.jpg"
-        website={false}
-        video="https://www.youtube.com/watch?v=dN7FuqO_I54"
-        frontend="https://github.com/wrobersone/Real-Estate"
-        backend={false}
-        repo={false}
-        description="Real Estate webpage with basic HTML, CSS and JS"
-        tech={['HTML', 'CSS', 'JavaScript']}
       />
 
       <Project
@@ -103,18 +91,6 @@ export const ProjectContainer = () => {
       />
 
       <Project
-        title="Zodiac"
-        image="/static/projects/p8.jpg"
-        website="https://kind-morse-3cb6f4.netlify.app/"
-        video="https://www.youtube.com/watch?v=EbFTAjzSk0E"
-        frontend="https://github.com/wrobersone/zodiac"
-        backend={false}
-        repo={false}
-        description="Enter your zodiac sign and discover your horoscope"
-        tech={['AJAX', 'HTML', 'CSS', 'JavaScript']}
-      />
-
-      <Project
         title="Expense Tracker"
         image="/static/projects/p10.png"
         repo={false}
@@ -126,29 +102,6 @@ export const ProjectContainer = () => {
         website="https://elegant-elion-2da7a5.netlify.app/"
       />
 
-      <Project
-        title="ProShop"
-        image="/static/projects/placeholder.png"
-        repo={false}
-        description="E-commerce shop with React frontend, Django backend and Postgres database."
-        tech={['React', 'Redux', 'Django', 'DRF', 'Postgres', 'Python']}
-        frontend="https://github.com/wrobersone/wr_proshop"
-        backend={false}
-        video={false}
-        website={false}
-      />
-
-      <Project
-        title="CRM"
-        image="/static/projects/placeholder.png"
-        repo={false}
-        description="A content relationship management database with Django"
-        tech={['Django', 'Python']}
-        frontend="https://github.com/wrobersone/crm"
-        backend={false}
-        video={false}
-        website={false}
-      />
     </>
   );
 };
