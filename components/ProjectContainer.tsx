@@ -67,15 +67,15 @@ export const ProjectContainer = () => {
       />
 
       <Project
-        title="Limelight Management Group"
+        title="FitLife - Fitness App"
         image="/static/projects/p9.png"
         repo={false}
-        description="Designed a music consultant's landing page."
-        tech={['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'Ruby']}
+        description="Responsive fitness web application developed in Html, CSS, and JS."
+        tech={['HTML', 'CSS', 'JavaScript']}
         frontend={false}
         backend={false}
         video={false}
-        website="https://tllis.net/"
+        website="https://fitlifegym.netlify.app/"
       />
 
       <Project
