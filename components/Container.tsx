@@ -18,7 +18,7 @@ type Props = {
 export const Container = (props: Props) => {
   const { colorMode } = useColorMode();
 
-  const bgColor = { light: 'yellow.50', dark: 'gray.900' };
+  const bgColor = { light: 'blue.50', dark: 'gray.900' };
 
   const color = { light: 'black', dark: 'white' };
 

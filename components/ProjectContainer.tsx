@@ -72,7 +72,7 @@ export const ProjectContainer = () => {
         repo={false}
         description="Responsive fitness web application developed in Html, CSS, and JS."
         tech={['HTML', 'CSS', 'JavaScript']}
-        frontend={false}
+        frontend="https://github.com/wrobersone/fitness"
         backend={false}
         video={false}
         website="https://fitlifegym.netlify.app/"
@@ -91,6 +91,18 @@ export const ProjectContainer = () => {
       />
 
       <Project
+        title="Westflix - Movie Design App"
+        image="/"
+        repo={false}
+        description="Responsive React Movies App with a RESTful API"
+        tech={['ReactJS', 'Node', 'REST API']}
+        frontend="https://github.com/wrobersone/resp_app_api"
+        backend={false}
+        video={false}
+        website="https://wesflix.vercel.app/"
+      />
+
+      <Project
         title="Expense Tracker"
         image="/static/projects/p10.png"
         repo={false}
@@ -101,7 +113,6 @@ export const ProjectContainer = () => {
         video={false}
         website="https://elegant-elion-2da7a5.netlify.app/"
       />
-
     </>
   );
 };
