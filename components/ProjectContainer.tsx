@@ -42,16 +42,17 @@ export const ProjectContainer = () => {
         website="https://travel-pro.netlify.app/"
       />
 
+
       <Project
-        title="API Gallery"
-        image="/static/projects/p5.jpg"
+        title="Movie Design App"
+        image="/static/projects/p4.jpg"
         repo={false}
-        description="React.js with Tailwinds Image Gallery and Pixabay API"
-        tech={['React', 'Gatsby', 'Tailwinds', 'RestAPI']}
-        frontend="https://github.com/wrobersone/galleryapi-react"
+        description="Responsive React Movies App with a RESTful API"
+        tech={['ReactJS', 'Node', 'REST API']}
+        frontend="https://github.com/wrobersone/resp_app_api"
         backend={false}
         video={false}
-        website="https://react-apigallery.netlify.app/"
+        website="https://movies-app-silk.vercel.app/"
       />
 
       <Project
@@ -91,15 +92,15 @@ export const ProjectContainer = () => {
       />
 
       <Project
-        title="Westflix - Movie Design App"
-        image="/"
+        title="API Gallery"
+        image="/static/projects/p5.jpg"
         repo={false}
-        description="Responsive React Movies App with a RESTful API"
-        tech={['ReactJS', 'Node', 'REST API']}
-        frontend="https://github.com/wrobersone/resp_app_api"
+        description="React.js with Tailwinds Image Gallery and Pixabay API"
+        tech={['React', 'Gatsby', 'Tailwinds', 'RestAPI']}
+        frontend="https://github.com/wrobersone/galleryapi-react"
         backend={false}
         video={false}
-        website="https://wesflix.vercel.app/"
+        website="https://react-apigallery.netlify.app/"
       />
 
       <Project
