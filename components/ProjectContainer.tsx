@@ -104,15 +104,15 @@ export const ProjectContainer = () => {
       />
 
       <Project
-        title="Expense Tracker"
-        image="/static/projects/p10.png"
+        title="E-commerce: WWR Headphones"
+        image="/static/projects/p8.png"
         repo={false}
-        description="Expense Tracker: Keep track of income and expenses. Add and remove items and save to local storage"
-        tech={['React', 'React Hooks', 'NPM', 'HTML']}
-        frontend="https://github.com/wrobersone/expense-tracker"
-        backend={false}
+        description="A Modern Full Stack E-Commerce React Application with Stripe"
+        tech={['React', 'NextJS', 'Sanity', 'Stripe API']}
+        frontend="https://github.com/wrobersone/e-commerce_stripe"
+        backend="https://www.sanity.io/manage"
         video={false}
-        website="https://elegant-elion-2da7a5.netlify.app/"
+        website="https://e-commerce-stripe.vercel.app/"
       />
     </>
   );

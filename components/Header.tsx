@@ -97,7 +97,7 @@ export const Header = () => {
                   alt="Opens Resume in a new window"
                   target="_blank"
                   rel="noreferrer"
-                  href={'https://docs.google.com/document/d/1kk-8x1KfO6cYh-sTOR41Ht0Ix1sGO2sTQTQKULVLYYw/edit?usp=sharing'}
+                  href={'https://williamwesley.vercel.app/wr_CV.pdf'}
                   icon={<ExternalLinkIcon />}
                 >
                   Resume
