@@ -31,15 +31,15 @@ export const ProjectContainer = () => {
       />
 
       <Project
-        title="Travel Pro"
+        title="FLEX Fitness"
         image="/static/projects/p3.jpg"
         repo={false}
-        description="A Travel blog with HTML, CSS and JavaScript."
-        tech={['HTML5', 'CSS3', 'JavaScript']}
-        frontend="https://github.com/wrobersone/travel"
+        description="A responsive Fitness Website built in HTML5, CSS3, and JS with GSAP Animations."
+        tech={['HTML5', 'CSS3', 'JavaScript', 'GSAP']}
+        frontend="https://github.com/wrobersone/gsap-fitness"
         backend={false}
         video={false}
-        website="https://travel-pro.netlify.app/"
+        website="https://gsapfitness.netlify.app/"
       />
 
 
@@ -68,15 +68,15 @@ export const ProjectContainer = () => {
       />
 
       <Project
-        title="FitLife - Fitness App"
-        image="/static/projects/p9.png"
+        title="Travel Pro"
+        image="/static/projects/p3.jpg"
         repo={false}
-        description="Responsive fitness web application developed in Html, CSS, and JS."
-        tech={['HTML', 'CSS', 'JavaScript']}
-        frontend="https://github.com/wrobersone/fitness"
+        description="A Travel blog with HTML, CSS and JavaScript."
+        tech={['HTML5', 'CSS3', 'JavaScript']}
+        frontend="https://github.com/wrobersone/travel"
         backend={false}
         video={false}
-        website="https://fitlifegym.netlify.app/"
+        website="https://travel-pro.netlify.app/"
       />
 
       <Project
